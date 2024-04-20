@@ -1,0 +1,41 @@
+.table {
+  background-color: #f6f6f6;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 6px 12px;
+  text-align: left;
+}
+
+th {
+  background: rgb(42, 165, 136);
+  color: white;
+}
+td{
+  padding: 20px;
+  color: #000000;
+  font-weight: 600;
+}
+.primary {
+  background-color: #000000;
+}
+
+tfoot > tr  {
+  background: black;
+  color: white;
+}
+
+tbody > tr {
+  transition: 0.9s background-color;
+}
+
+tbody > tr:hover {
+  cursor: pointer;
+  background-color: #b98ee6;
+}
+
+tbody td:first-child{
+  background-color: rgb(42, 165, 136);
+  color: white;
+}

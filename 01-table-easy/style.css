@@ -1,0 +1,28 @@
+.table th {
+  padding: 6px 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-align: left;
+  width: 180px;
+  text-transform: uppercase;
+  border: 1px solid #dfdfe2;
+  background-color: #dfdfe2;
+}
+
+.table td {
+  text-align: center;
+  
+  padding: 5px 0;
+  font-size: 18px;
+}
+.table tfoot{
+    padding: 6px 12px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-transform: uppercase;
+    border: 1px solid #dfdfe2;
+    background-color: #dfdfe2;
+}
